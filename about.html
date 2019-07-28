@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Tagww Assessment</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header><img src="assets/logo.png" alt="logo"></header>
+		<nav>
+			<a href="#">HOME</a>
+			<a href="about">ABOUT</a>
+			<a href="#">SERVICES</a>
+			<a href="#">PORTFOLIO</a>
+			<a href="#">CONTACT</a>
+			<span class="nav-hide"></span>
+		</nav>
+		<main>
+			<h1>About the Global Production Studio</h1>
+			<div id="about-introduction">
+				<p>Nam condimentum gravida arcu, sit amet posuere sem congue sit amet. Etiam bibendum dolor sem, vel
+					ultrices massa congue vitae. Curabitur malesuada malesuada turpis, vitae lobortis orci faucibus non.
+					Curabitur volutpat urna velit, at pulvinar lacus aliquet in. Proin finibus risus elementum mi
+					rutrum, ac consequat ligula consequat. Aenean suscipit molestie justo id faucibus. Aenean consequat
+					massa a iaculis lobortis. Aliquam ornare quam elit, sed cursus ante viverra eu. Donec finibus neque
+					ut efficitur dapibus. Ut euismod nibh at lorem laoreet molestie. Vivamus sed sapien porta mi dictum
+					fringilla eget nec sapien. Etiam ipsum nibh, convallis egestas odio sit amet, finibus rutrum est.
+					Sed finibus lacinia nulla, sed rutrum lectus volutpat ut.</p>
+			</div>
+			<div class="tab">
+				<button class="tablinks active" onclick="tabToggle(event, 'tab1')">OUR SERVICES</button>
+				<button class="tablinks spacing" onclick="tabToggle(event, 'tab2')">OUR SOLUTIONS</button>
+			</div>
+
+			<div id="tab1" class="tabcontent" style="display:block;">
+				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+					Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+					amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit
+					amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae,
+					ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+					sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent
+					dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+					Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+					Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+					amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit
+					amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae,
+					ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+					sagittis tempus lacus enim ac dui.</p>
+				<p><strong>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+						egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+						libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+						leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+						commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
+						ipsum rutrum orci, sagittis tempus lacus enim ac dui.</strong><br />
+					Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+					Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+					amet quam egestas semper. Aenean ultricies mi vitae est.</p>
+			</div>
+
+			<div id="tab2" class="tabcontent">
+				<p><strong>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+						egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+						libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+						leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+						commodo vitae, ornare sit amet, wisi.</strong></p>
+				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+					Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+					Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+					amet quam egestas semper. Aenean ultricies mi vitae est. <br />Pellentesque habitant morbi tristique
+					senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique
+					senectus et netus et malesuada fames ac turpis egestas.
+					Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+					amet quam egestas semper. Aenean ultricies mi vitae est.</p>
+				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+					Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+					amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit
+					amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae,
+					ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+					sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent
+					dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+					Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+			</div>
+		</main>
+		<aside>
+			<div class="sidebar">
+				<h3>FIND A LOCAL PRODUCTION STUDIO</h3>
+				<div class="sidebar-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+					turpis
+					egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+					libero
+					sit amet
+					quam egestas semper.</div>
+				<h3>COUNTRY</h3>
+				<div>
+					<select name="country" id="country">
+						<option value="none">-- Select --</option>
+						<option value="CA">Canada</option>
+						<option value="CU">Cuba</option>
+						<option value="FR">France</option>
+						<option value="RU">Russia</option>
+						<option value="US">United States</option>
+					</select>
+
+					<div id="dd2">
+						<select name="cities" id="cities"></select>
+						<div class="city-container">
+							<div>
+								<option value="none">-- Select --</option>
+								<option value="CA1">Calgary</option>
+								<option value="CA2">Edmonton</option>
+								<option value="CA3">Montreal</option>
+								<option value="CA4">Ottawa</option>
+								<option value="CA5">Vancouver</option>
+							</div>
+							<div>
+								<option value="">Select City</option>
+								<option value="CU1">Baracoa</option>
+								<option value="CU2">Cienfuegos</option>
+								<option value="CU3">Havana</option>
+								<option value="CU4">Santa Clara</option>
+								<option value="CU5">Santiago </option>
+							</div>
+							<div>
+								<option value="">Select City</option>
+								<option value="FR1">Lyon</option>
+								<option value="FR2">Marseille</option>
+								<option value="FR3">Nice</option>
+								<option value="FR4">Saint Malo</option>
+								<option value="FR5">Toulouse</option>
+							</div>
+							<div>
+								<option value="">Select City</option>
+								<option value="RU1">Nizhny Novgorod</option>
+								<option value="RU2">Novosibirsk</option>
+								<option value="RU3">Moscow</option>
+								<option value="RU4">Samara</option>
+								<option value="RU5">Yekaterinburg</option>
+							</div>
+							<div>
+								<option value="">Select City</option>
+								<option value="US1">Chicago</option>
+								<option value="US2">Las Vegas</option>
+								<option value="US3">Miami</option>
+								<option value="US4">New York City</option>
+								<option value="US5">San Francisco</option>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</div>
+	<script type="text/javascript" src="js/my.js"></script>
+</body>
+
+</html>
